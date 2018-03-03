@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CecropiaWebApi", "CecropiaTest\CecropiaWebApi.csproj", "{5696F9A0-75DC-4B41-9A5B-F3F123BD61FF}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database1", "Database1\Database1.sqlproj", "{AC71E42E-A79A-4A24-9A72-464EC810BE27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{57A74C98-C4A4-4CAC-9EB2-E56CD29ECC5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{A2E03AD2-0BEF-48D6-88CA-0471A61D5A1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "Logic\Logic.csproj", "{CDC70404-B8CA-4B7E-967F-8000B3640C29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CecropiaWebApplication", "CecropiaWebApplication\CecropiaWebApplication.csproj", "{4C58EA97-93D4-4077-8831-C1E72E0CF8D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5696F9A0-75DC-4B41-9A5B-F3F123BD61FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5696F9A0-75DC-4B41-9A5B-F3F123BD61FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5696F9A0-75DC-4B41-9A5B-F3F123BD61FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5696F9A0-75DC-4B41-9A5B-F3F123BD61FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC71E42E-A79A-4A24-9A72-464EC810BE27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC71E42E-A79A-4A24-9A72-464EC810BE27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC71E42E-A79A-4A24-9A72-464EC810BE27}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AC71E42E-A79A-4A24-9A72-464EC810BE27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC71E42E-A79A-4A24-9A72-464EC810BE27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC71E42E-A79A-4A24-9A72-464EC810BE27}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{57A74C98-C4A4-4CAC-9EB2-E56CD29ECC5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57A74C98-C4A4-4CAC-9EB2-E56CD29ECC5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57A74C98-C4A4-4CAC-9EB2-E56CD29ECC5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57A74C98-C4A4-4CAC-9EB2-E56CD29ECC5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2E03AD2-0BEF-48D6-88CA-0471A61D5A1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2E03AD2-0BEF-48D6-88CA-0471A61D5A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2E03AD2-0BEF-48D6-88CA-0471A61D5A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2E03AD2-0BEF-48D6-88CA-0471A61D5A1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDC70404-B8CA-4B7E-967F-8000B3640C29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDC70404-B8CA-4B7E-967F-8000B3640C29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDC70404-B8CA-4B7E-967F-8000B3640C29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDC70404-B8CA-4B7E-967F-8000B3640C29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C58EA97-93D4-4077-8831-C1E72E0CF8D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C58EA97-93D4-4077-8831-C1E72E0CF8D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C58EA97-93D4-4077-8831-C1E72E0CF8D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C58EA97-93D4-4077-8831-C1E72E0CF8D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C4376479-5768-4A16-944F-328B93F5B331}
+	EndGlobalSection
+EndGlobal

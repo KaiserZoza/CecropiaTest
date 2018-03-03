@@ -1,0 +1,73 @@
+﻿@model CecropiaWebApplication.Models.PatientDetailsViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>PatientDetailsViewModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateOfBirth)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateOfBirth)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SelectedNationality)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SelectedNationality)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Diseases)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Diseases)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PhoneNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhoneNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SelectedBloodType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SelectedBloodType)
+        </dd>
+
+    </dl>
+
+    @Ajax.ActionLink("Delete", "Delete", new { id = Model.ID }, new AjaxOptions { HttpMethod = "POST", OnSuccess = "alert('deleted');window.location.replace('" + @Url.Action("Index", "Home") + "')", OnFailure = "alert('fail')" }) | 
+    @Html.ActionLink("Back to List", "Index", "Home")
+</div>
